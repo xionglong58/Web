@@ -4,10 +4,10 @@
 </head>
 <body>
 <h1 align="center" style="font-size:30px">test4</h1>
-
-<form>
+<hr/>
+<form  action="E:\Web\Web\exercise\test4\demo.asp" method="get" autocomplete="on">
 first name: <br/>
-<input type="text" name="firstname"><br>
+<input type="text" name="firstname" value="xiong" readonly><br>
 last name: <br/>
 <input type="text" name="lastname"><br>
 <input type="submit" value="submit">
@@ -15,9 +15,9 @@ last name: <br/>
 
 <hr/>
 <form>
-<input type="radio" name="sex" value="male" checked>male<br/>
-<input type="radio" name="sex" value="female">female<br/>
-<input type="submit" value="submit">
+<input type="radio" name="sex" value="male" checked></input>male<br/>
+<input type="radio" name="sex" value="female"></input>female<br/>
+<input type="submit" value="submit"></input>
 </form>
 <hr/>
 <form>
@@ -27,7 +27,7 @@ last name: <br/>
 <option value="fiat">fiat</option>
 <option value="audi" selected>audi</option>
 </select><br/>
-<input type="submit" value="submit">
+<input type="submit" value="submit"></input>
 </form>
 <form>
 <textarea name="message" rows="10" cols="30">
@@ -41,11 +41,27 @@ The cat was playing in the garden.
 <hr/>
 <form>
 用户名<br/>
-<input type="text" name="urname"><br/>
+<input type="text" name="urname"></input><br/>
 用户密码<br/>
-<input type="password" name="pwd"><br/><br/>
-<input type="submit" value="submit">
+<input type="password" name="pwd"></input><br/><br/>
+<input type="submit" value="submit"></input>
+</form>
+<form>
+汉族
+<input type="checkbox" name="汉族"></input><br/>
+男性
+<input type="checkbox" name="男性"></input<br/>
+<input type="submit" name="submit"></input<br/>
 </form>
 <hr/>
+<form>
+point:
+<input type="range" name="point" min="0" max="100"/><br/><br/>
+colorrange:
+<input type="color" name="colorrange"/><br/>
+date:
+<input type="date" name="date"/><br/>
+<input type="submit" name="提交"><hr/>
+</form>
 </body>
 </html>
