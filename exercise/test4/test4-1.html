@@ -1,5 +1,51 @@
 <html>
+<head>
+<title>test4</title>
+</head>
 <body>
+<h1 align="center" style="font-size:30px">test4</h1>
 
+<form>
+first name: <br/>
+<input type="text" name="firstname"><br>
+last name: <br/>
+<input type="text" name="lastname"><br>
+<input type="submit" value="submit">
+</form><!--没有javascrpt支持的话，提交不会有其他结果产生-->
+
+<hr/>
+<form>
+<input type="radio" name="sex" value="male" checked>male<br/>
+<input type="radio" name="sex" value="female">female<br/>
+<input type="submit" value="submit">
+</form>
+<hr/>
+<form>
+<select name="cars">
+<option value="volov">volovo</option>
+<option value="saab">saab</option>
+<option value="fiat">fiat</option>
+<option value="audi" selected>audi</option>
+</select><br/>
+<input type="submit" value="submit">
+</form>
+<form>
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea><br/><input type="submit" value="提交">
+</form>
+<hr/>
+<form>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+</form>
+<hr/>
+<form>
+用户名<br/>
+<input type="text" name="urname"><br/>
+用户密码<br/>
+<input type="password" name="pwd"><br/><br/>
+<input type="submit" value="submit">
+</form>
+<hr/>
 </body>
 </html>
