@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<div onmousedown="moused(this)" onmouseup="mouseu(this)" 
+style="background-color:gray;fontsize:20px;padding:30px;width:50px;height:20px">
+请点击这里
+</div>
+<div  style="color:gray" onmouseout="style.color='red'" onmouseover="style.color='yellow'">鼠标与元素的相对位置触发事件</div>
+<hr/>
+
+<div id="div1">
+<p id="p1">这是段落1。</p>
+<p id="p2">这是段落2。</p>
+<p id="p3">这是段落3。</p>
+</div>
+<hr/>
+<p id="par1"></p>
+</body>
+<script>
+function moused(obj)
+{
+	obj.style.backgroundColor="red";
+	obj.innerHTML="mousedown";	
+}
+function mouseu(obj)
+{
+	obj.style.backgroundColor="blue";
+	obj.innerHTML="mousup";	
+}
+<!-- 在div下创建新元素 -->
+var para=document.createElement("p");
+var node=document.createTextNode("这是新段落。");
+para.appendChild(node);
+
+var element=document.getElementById("div1");
+element.appendChild(para);
+
+<!-- 删除元素 -->
+
+var del=document.getElementById("div1");
+var delele=document.getElementById("p2");
+del.removeChild(delele);
+<!-- 其他练习 -->
+var arr1=new Array('xiong','long');
+var try1=document.getElementById("par1")
+for(i=0;i<2;++i)
+{
+document.write(arr1[i]);
+document.write("\t\t");
+}
+</script>
+</html>
