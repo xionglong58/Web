@@ -1,0 +1,25 @@
+<!DOCYPE html>
+<html>
+<head>
+<title>just a test</title>
+</head>
+<body>
+<div id="testdiv" />
+<script>
+var testdiv=document.getElementById("testdiv");
+var elemp=document.createElement("p");
+var elemm=document.createElement("em");
+var textp1=document.createTextNode("the more you know, ");
+var textp2=document.createTextNode("you don't know.");
+var textm=document.createTextNode("the more ");
+elemm.append(textm);
+elemp.appendChild(textp1);
+elemp.appendChild(elemm);
+elemp.appendChild(textp2);
+testdiv.append(elemp);
+//var text=document.createTextNode("the more you know, the more you don't know");
+//elem.appendChild(text);
+//testdiv.appendChild(elem);
+</script>
+</body>
+</html>
