@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>just a test</title>
+<style>
+body{
+font-family:"Helvetical","Arial",serif;
+color:#333;
+backgorund-color:#ccc;
+margin:1em 10%;
+}
+h1{
+color:#333;
+background-color:transparent;
+}
+a{
+color:#c60;
+background-color:transparent;
+font-wight:bold;
+text-decoration:none;
+}
+ul{
+padding:0;
+}
+li{
+float:left;
+padding:1em;
+list-style:none;
+}
+
+img{
+display:block;
+clear:both;
+}
+</style>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul>
+  <li><a href="E:\Web\Web\exercise2\test4\monkey.jpg" title="monkey" onclick="showPic(this);return false">Monkey</a></li>
+  <li><a href="E:\Web\Web\exercise2\test4\cat.jpg" title="cat" onclick="showPic(this);return false">Cat</a></li>
+  <li><a href="E:\Web\Web\exercise2\test4\tiger.jpg" title="tiger" onclick="showPic(this);return false">Tiger</a></li>
+  <li><a href="E:\Web\Web\exercise2\test4\horse.jpg" title="horse" onclick="showPic(this);return false">Horse</a></li>
+</ul>
+<img id="placeholder" src="E:\Web\Web\exercise2\test4\cat.jpg" alt="no picture" />
+<p id="description">choose a picture</p>
+<script>
+function showPic(whichPic)
+{
+	var source=whichPic.getAttribute("href");
+	var placeholder=document.getElementById("placeholder");
+	placeholder.setAttribute("src",source);
+	var text=whichPic.getAttribute("title");
+	var desription=document.getElementById("description");
+	description.firstChild.nodeValue=text;
+}
+/*function countBodyChildren()
+{
+	var bady_element=document.getElementsByTagName("body")[0];
+	alert(bady_element.lastChild);
+}
+window.onload=countBodyChildren;*/
+</script>
+</body>
+</html> 
