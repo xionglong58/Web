@@ -20,7 +20,7 @@ function preparePlaceholder()
 	
 	var placeholder=document.createElement("img");
 	placeholder.setAttribute("id","placeholder");
-	placeholder.setAttribute("src","file://E:/Web/Web/jsDOM/test1/cat.jpg");
+	placeholder.setAttribute("src","file:///E:/Web/Web/jsDOM/test1/cat.jpg");
 	placeholder.setAttribute("alt","no picture");
 	
 	var description=document.createElement("p");
