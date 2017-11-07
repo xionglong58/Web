@@ -38,7 +38,7 @@ function preparePlaceholder()
 	return true;
   var source=whichPic.getAttribute("href"); 
 	var placeholder=document.getElementById("placeholder");
-		placeholder.setAttribute("src",source);
+	placeholder.setAttribute("src",source);
 	if(!document.getElementById("description")) return false;
 	
 	var text=whichPic.getAttribute("title")?whichPic.getAttribute("title"):"";
