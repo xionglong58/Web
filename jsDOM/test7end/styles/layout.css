@@ -1,0 +1,63 @@
+section,header,article,nav{
+    display: block;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 1em 10%;
+    background-image:url("file:///E:/Web/Web/jsDOM/test7end/images/background.gif");
+    background-attachment: fixed;
+    background-position:top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+}
+
+header{
+    background-image: url("file:///E:/Web/Web/jsDOM/test7end/images/guitarist.gif");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-width: 0.1em;
+    border-style: solid;
+    border-bottom-width: 0;
+}
+header nav{
+    background-image: url("file:///E:/Web/Web/jsDOM/test7end/images/navbar.gif");
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0; 
+    border-top-width:0;
+    padding-left:10%; 
+}
+header nav ul{
+    width:100%;
+    overflow: hidden;
+    border-left-width:.2em;
+    border-left-style:solid;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    display:block;
+    float:left;
+    padding:.5em 2em;
+    border-right:.1em solid;
+    height: 0.9em;
+}
+article{
+    border-width:.1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height:1.8em;
+}
+article{
+    border-width: .1em;
+    border-style: solid;
+    outline-width:.1em;
+    outline-style: solid;
+}
