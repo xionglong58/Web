@@ -1,0 +1,10 @@
+#pictureshow{
+    width:100px;
+    height: 100px;
+    position:relative;
+    overflow: hidden;
+}
+#range{
+    width: 200px;
+    height: 90px;
+}
