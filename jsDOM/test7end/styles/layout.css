@@ -7,7 +7,7 @@ section,header,article,nav{
 }
 body{
     margin: 1em 10%;
-    background-image:url("file:///E:/Web/Web/jsDOM/test7end/images/background.gif");
+    background-image:url("file:///F:/Web/Web/jsDOM/test7end/images/background.gif");
     background-attachment: fixed;
     background-position:top left;
     background-repeat: repeat-x;
@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background-image: url("file:///E:/Web/Web/jsDOM/test7end/images/guitarist.gif");
+    background-image: url("file:///F:/Web/Web/jsDOM/test7end/images/guitarist.gif");
     background-repeat: no-repeat;
     background-position: bottom right;
     border-width: 0.1em;
@@ -23,7 +23,7 @@ header{
     border-bottom-width: 0;
 }
 header nav{
-    background-image: url("file:///E:/Web/Web/jsDOM/test7end/images/navbar.gif");
+    background-image: url("file:///F:/Web/Web/jsDOM/test7end/images/navbar.gif");
     background-repeat: repeat-x;
     background-position: bottom left;
     border-width: .1em;
@@ -62,16 +62,16 @@ article{
     outline-style: solid;
 }
 #photos header{
-    background-image: url(file:///E:/Web/Web/jsDOM/test7end/images/basshead.gif);
+    background-image: url(file:///F:/Web/Web/jsDOM/test7end/images/basshead.gif);
 }
 #about header{
-    background-image: url(file:///E:/Web/Web/jsDOM/test7end/images/lineup.gif);
+    background-image: url(file:///F:/Web/Web/jsDOM/test7end/images/lineup.gif);
 }
 #live header{
-    background-image: url(file:///E:/Web/Web/jsDOM/test7end/images/bassist.gif);
+    background-image: url(file:///F:/Web/Web/jsDOM/test7end/images/bassist.gif);
 }
 #contact header{
-    background-image: url(file:///E:/Web/Web/jsDOM/test7end/images/drummer.gif);
+    background-image: url(file:///F:/Web/Web/jsDOM/test7end/images/drummer.gif);
 }
 #slideshow{
     width: 150px;
@@ -89,4 +89,18 @@ article{
     top:0;
     left:0;
     z-index: 99;
+}
+#imagegallery li{
+    display:inline;
+}
+td{
+    padding: .5em 3em;
+}
+th{
+    color:#edc;
+    background-color:#455;
+}
+tr td{
+    color:#233;
+    background-color:#eb6;
 }
