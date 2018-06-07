@@ -1,0 +1,35 @@
+li p{
+    color:orange;
+    line-height:200%;
+  }
+  li{
+    color:blue;
+    font-weight:bold;
+  }
+  h1{
+    color:red;
+    font-size:32px;
+    font-family:serif;
+    font-style:italic;
+  }
+  div {
+    text-align:center;
+    border-style:dotted solid double dashed;
+    border-color: #E71051;
+    border-width:15px;
+    border-right:thick double #E71051;
+    border-left:thick double #E71051;
+  }
+  ul li{
+    list-style-type:none;
+  }
+  body{ 
+    background-image: url("file:///C:/Users/zhengxf/Desktop/img.jpg");
+    background-color:black;
+    background-repeat: repeat;
+  }
+
+  a:link {color:#FFA500;}		/* 未被访问的链接 */
+  a:visited {color:#00FF00;}	/* 已被访问的链接 */
+  a:hover {color:#FF00FF;}	/* 鼠标指针移动到链接上 */
+  a:active {color:#0000FF;}	/* 正在被点击的链接 */
