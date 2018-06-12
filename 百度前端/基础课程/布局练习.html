@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>布局练习</title>
+        <link rel="stylesheet" href="file:///E:/Web/Web/百度前端/基础课程/布局练习.css">
+    </head>
+    <body>
+       <div>
+          这是一个div标签
+          <span>span标签是什么作用呢</span> 
+          <p class="inline">这是一个段落p标签,通过改变标签的display属性呈现不同的布局display：inline</p>
+          <p class="block">这是一个段落p标签,通过改变标签的display属性呈现不同的布局display：block</p>
+          <p>下面一个段落被属性visibility：hidden隐藏起来了，与display：none不同的是，vidibility属性隐藏元素之后仍保留元素的位置区域</p>
+          <p class="visibility">你看不到我</p>
+          <p>上面有被隐藏的块级元素</p>          
+    </div> 
+    <div id="main">
+            <p>设置块级元素的 width 可以防止它从左到右撑满整个容器。然后你就可以设置左右外边距为 auto 来使其水平居中。元素会占据你所指定的宽度，然后剩余的宽度会一分为二成为左右外边距。</p>
+        </div>
+        <div id="small"><p>width相同，但块级元素区域大小却不一样，原因是边框和内边距的影响，这是没有边框和内边距的</p></div>
+        <div id="big"><p>width相同，但块级元素区域大小却不一样，原因是边框和内边距的影响，这是<b>有边框和内边距的</b></p></div>
+        <div id="small-1"><p>使用border-box消除影响，这是没有边框和内边距的</p></div>
+        <div id="big-1"><p>使用border-box消除影响原因是边框和内边距的影响，这是<b>有边框和内边距的</b></p></div>
+    <div class="fixed">
+        <p>我被固定了</p>
+    </div>
+    <div>
+        <div class="relative">相对的</div>
+        <div class="absolute">绝对的</div>
+    </div>
+        <div class="nav">
+        <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        </ul></div>
+        <div class="section">
+        <section >这个例子和之前那个外观一模一样。请注意我们在容器上做了“清除浮动”。原本在这个例子中是不需要的，但是当 nav 比非浮动的内容还要高时就需要了。</section>
+        <section >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.</section>
+        </div>   
+    </body>
+</html>

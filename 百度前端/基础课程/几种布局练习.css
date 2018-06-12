@@ -1,0 +1,36 @@
+.main{
+    margin: 0 auto;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+.left{
+    background-color: white;
+    width: 33.3%;
+    margin: 0 auto;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 50%;
+}
+.right{
+    background-color: #95E5A3;
+    width: 33.3%;
+    margin: 0 auto;
+    height: 50%;
+    right: 0;
+    position: absolute;
+    top: 50%;
+}
+.middle{
+    background-color: #4826A5;
+    margin: 0 auto;
+    height: 50%;
+    position: absolute;
+    left: 33.3%;
+    width: 33.3%;
+    top: 50%;
+}
+.center{
+    text-align: center;
+}
